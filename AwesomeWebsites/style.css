@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Die Werte width und height enthalten padding und border, aber nicht margin
+    Standard waere: content-box -> width und height berechnen sich nur aus dem Inhalt des Elementes und enthalten weder border, margin oder padding*/
+}
+
+main {
+    font-family: "Heebo", sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    background: url("sea.jpg");
+    background-size: cover;
+    padding: 0 5rem;
+}
+
+nav {
+    display: flex; /* Elemente nebeneinander (flexibel anordbar)
+    Standard: inline, sonst: block, inline-block*/
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding: 0 5rem;
+
+}
+
+#logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big-text {
+    position: absolute; /*Koennen wir rumbewegen soviel wir wollen*/
+    top: 30%;
+    left: 50%;
+    /* not really centered */
+    transform: translate(-50%, -30%);
+    font-family: "Lobster", cursive;
+    font-size: 5rem;
+    color: rgb(61,61,61);
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /*horizontales Centern*/
+    align-items: center; /*vertikal zentriert */
+}
+
+.intro-text {
+    color: rgb(227, 242, 255);
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+}
+
+.slider {
+    background: #3e3e5a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /*horizontales Centern*/
+    align-items: center;
+    transform: translateY(100%);/*100% nach unten, also erstmal "unsichtbar"*/
+}
+
+.hide {
+    background:black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%); /*s.o.*/
+    display: block; /*spans are inline by default and thus cant be moved by transform */
+}
