@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd1acfca-122c-4a91-a56b-fd475f0be611" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaScriptProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaScriptProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoList/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TodoList/index.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,22 +19,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+<<<<<<< Updated upstream
         <option value="JavaScript File" />
         <option value="package.json" />
+=======
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="ProjectId" id="1igoRwy2gaxqR9LyKydZoH6a3Wf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -69,6 +80,7 @@
       <updated>1602338591716</updated>
       <workItem from="1602338593234" duration="6438000" />
       <workItem from="1602348594394" duration="11505000" />
+<<<<<<< Updated upstream
       <workItem from="1602802984068" duration="726000" />
       <workItem from="1602855572567" duration="343000" />
       <workItem from="1602886545151" duration="629000" />
@@ -84,6 +96,11 @@
       <workItem from="1603477035679" duration="150000" />
       <workItem from="1603502419934" duration="13000" />
       <workItem from="1603761805612" duration="89000" />
+=======
+      <workItem from="1604587453137" duration="645000" />
+      <workItem from="1604588762025" duration="16000" />
+      <workItem from="1604624658782" duration="434000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
