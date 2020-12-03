@@ -8,5 +8,8 @@
     <orderEntry type="library" name="all" level="application" />
     <orderEntry type="library" name="all" level="application" />
     <orderEntry type="library" name="gsap" level="application" />
+    <orderEntry type="library" name="TimelineMax" level="application" />
+    <orderEntry type="library" name="TweenMax" level="application" />
+    <orderEntry type="library" name="vue" level="application" />
   </component>
 </module>
