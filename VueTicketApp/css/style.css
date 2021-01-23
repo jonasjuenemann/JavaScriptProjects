@@ -1,3 +1,23 @@
+input.required {
+    border-width: 2px;
+}
+
+input.touched {
+    border-color: #bdbcbc;
+}
+
+input.invalid {
+    background-color: #ffeded;
+    border-color: #da5252;
+}
+
+button.active {
+    cursor: pointer;
+    background-color: #4c7ef3;
+}
+
+
+
 /* Site-Wide Styles */
 
 html {
