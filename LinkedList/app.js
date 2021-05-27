@@ -1,0 +1,16 @@
+const LinkedList = require('./LinkedList')
+
+let li = new LinkedList()
+li.insertAtHead(30)
+console.log(li)
+li.insertAtHead(20)
+console.log(li)
+li.insertAtHead(10)
+console.log(li)
+li.removeAtIndex(2)
+console.log(li)
+
+li = LinkedList.fromValues(10, 20, 30, 40, 50)
+li.print()
+li.reverse()
+li.print()
