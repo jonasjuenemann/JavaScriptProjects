@@ -1,0 +1,43 @@
+users:
+  jonas@gmx.de:
+    username: jonas@gmx.de
+    articleIds:
+      - 1
+    commentIds: []
+  newDude.com:
+    username: newDude.com
+    articleIds:
+      - 2
+    commentIds:
+      - 1
+articles:
+  '1':
+    id: 1
+    title: hey hey
+    url: nytimes.com
+    username: jonas@gmx.de
+    commentIds:
+      - 1
+    upvotedBy:
+      - newDude.com
+    downvotedBy: []
+    comments: []
+  '2':
+    id: 2
+    title: asdads
+    url: asdasd
+    username: newDude.com
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+comments:
+  '1':
+    id: 1
+    body: a comment
+    username: newDude.com
+    articleId: 1
+    upvotedBy:
+      - newDude.com
+    downvotedBy: []
+nextArticleId: 3
+nextCommentId: 2
